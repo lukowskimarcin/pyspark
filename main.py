@@ -112,6 +112,6 @@ a.explain()
 
 #============================================================================
 
-xx = spark.sql("select * from casscatalog.ksname.table_name where cck ='a' ")
+xx = spark.sql("select * from casscatalog.ksname.table_name2 where cck > 2 and cck < 21 ")
 xx.show()
 xx.explain()
