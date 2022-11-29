@@ -115,3 +115,7 @@ a.explain()
 xx = spark.sql("select * from casscatalog.ksname.table_name2 where cck > 2 and cck < 21 ")
 xx.show()
 xx.explain()
+
+
+
+# https://blog.tanka.la/2018/09/06/running-pyspark-with-cassandra-using-spark-cassandra-connector-in-jupyter-notebook/
