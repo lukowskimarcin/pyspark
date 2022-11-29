@@ -1,0 +1,1 @@
+{"id":"laAELqOMYj2tFKf8","body":"  SELECT pk, cck, data\n  FROM ksname.table_name2\n  ","filename":"script_10.cql","clusterName":"Cluster PasswordAuthenticator","keyspace":"ksname","source":"action","modified":true}

@@ -1,0 +1,1 @@
+{"id":"veCfK8L61DtNBwbJ","body":"-- change table name and structure\nCREATE TABLE ksname.table_name(\n\tpk text,\n\tcck text,\n\tval int,\n\tPRIMARY KEY(pk)\n);","filename":"script_9.cql","clusterName":"Cluster PasswordAuthenticator","keyspace":"ksname","source":"action","modified":true}

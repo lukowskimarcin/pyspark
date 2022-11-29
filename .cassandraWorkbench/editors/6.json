@@ -1,0 +1,1 @@
+{"id":"l4YgJMCieGOtn5ra","body":"DROP TABLE ksname.table_name;","filename":"script_10.cql","clusterName":"Cluster PasswordAuthenticator","keyspace":"ksname","source":"action","modified":true}

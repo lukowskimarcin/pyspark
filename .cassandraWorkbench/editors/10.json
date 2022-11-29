@@ -1,0 +1,1 @@
+{"id":"4g6xoclQWNz3Fv9s","body":"INSERT INTO ksname.salesfact(\n\tkey, \n\tproduct, \n\tsale_date, \n\tvalue\n)\nVALUES(\n\t2, \n\t'b', \n\t'2022-11-29 02:16:18', \n\t132\n);","filename":"script_8.cql","clusterName":"Cluster PasswordAuthenticator","keyspace":"ksname","source":"action","modified":true}

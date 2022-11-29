@@ -1,0 +1,1 @@
+{"id":"l3Q4soKOSC09JBqn","body":"  SELECT id, age, firstname, lastname FROM cycling.cyclist_name\n  ","filename":"script_7.cql","clusterName":"Cluster PasswordAuthenticator","keyspace":"cycling","source":"action","modified":true}

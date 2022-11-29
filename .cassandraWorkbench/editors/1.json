@@ -1,0 +1,1 @@
+{"id":"eph9Zv4MfangLtcj","body":"INSERT INTO ksname.table_name2(\n\tpk, \n\tcck, \n\tdata\n)\nVALUES(\n\t'b', \n\t7, \n\t'a'\n);","filename":"script_10.cql","clusterName":"Cluster PasswordAuthenticator","keyspace":"ksname","source":"action","modified":true}

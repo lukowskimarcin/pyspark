@@ -1,0 +1,1 @@
+{"id":"iR7BhQtPAYDNHJ9I","body":"CREATE DATABASE IF NOT EXISTS casscatalog.ksname \n  WITH DBPROPERTIES (class='SimpleStrategy', replication_factor='5')","filename":"script_6.cql","clusterName":"Cluster PasswordAuthenticator","keyspace":"system","source":"action","modified":true}

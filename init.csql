@@ -1,0 +1,69 @@
+
+CREATE KEYSPACE IF NOT EXISTS cycling
+  WITH REPLICATION = {
+   'class' : 'SimpleStrategy',
+   'replication_factor' : 1
+  };
+
+USE cycling;
+
+DROP TABLE IF EXISTS cycling.cyclist_name;
+
+CREATE TABLE cycling.cyclist_name (
+  id UUID PRIMARY KEY,
+  lastname text,
+  firstname text,
+  age int
+  
+);
+
+INSERT INTO cycling.cyclist_name (id, lastname, firstname, age) VALUES (e7cd5752-bc0d-4157-a80f-7523add8dbcd, 'VAN DER BREGGEN', 'Anna', 35);
+INSERT INTO cycling.cyclist_name (id, lastname, firstname, age) VALUES (e7ae5cf3-d358-4d99-b900-85902fda9bb0, 'FRAME', 'Alex', 54);
+INSERT INTO cycling.cyclist_name (id, lastname, firstname, age) VALUES (220844bf-4860-49d6-9a4b-6b5d3a79cbfb, 'TIRALONGO', 'Paolo', 23);
+INSERT INTO cycling.cyclist_name (id, lastname, firstname, age) VALUES (6ab09bec-e68e-48d9-a5f8-97e6fb4c9b47, 'KRUIKSWIJK', 'Steven', 22);
+INSERT INTO cycling.cyclist_name (id, lastname, firstname, age) VALUES (fb372533-eb95-4bb4-8685-6ef61e994caa, 'MATTHEWS', 'Michael', 36);
+
+
+
+
+
+-- change table name and structure
+CREATE TABLE ksname.table_name(
+	pk text,
+	cck text,
+	data text,
+	PRIMARY KEY(pk,cck)
+);
+
+INSERT INTO ksname.table_name(
+	pk, 
+	cck, 
+	data
+)
+VALUES(
+	'a', 
+	'a', 
+	'a'
+);
+
+INSERT INTO ksname.table_name(
+	pk, 
+	cck, 
+	data
+)
+VALUES(
+	'b', 
+	'a', 
+	'a'
+);
+
+INSERT INTO ksname.table_name(
+	pk, 
+	cck, 
+	data
+)
+VALUES(
+	'c', 
+	'c', 
+	'c'
+);

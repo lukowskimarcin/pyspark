@@ -1,0 +1,10 @@
+{
+  "cassandraWorkbench.activeClusterName": "Cluster PasswordAuthenticator",
+  "cassandraWorkbench.activeKeyspace": [
+    [
+      "Cluster PasswordAuthenticator",
+      "ksname"
+    ]
+  ],
+  "cassandraWorkbench.splitPosition": 38.24046533951023
+}
